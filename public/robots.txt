@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# High crawl-delay for search engine bots to respect server resources
+Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Disallow admin areas (when implemented)
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all product pages
+Allow: /product/
+Allow: /orders
+Allow: /checkout
